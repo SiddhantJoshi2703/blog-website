@@ -1,24 +1,19 @@
-.logo{
-    height: 58px;
-    width: 150px;
-    padding: 0 0 0 15px;
-}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 body{
-    width: 100%;
+    width:100%;
     position: relative;
-    font-family: 'poppins', sans-serif;
+    font-family:'poppins',sans-serif;
 }
 
 ::selection{
-    background:#2dd1fa;
-    color:whitesmoke;
+    background: rgb(55, 55, 56);
+    color:white;
 }
+
 .navbar{
     width: 100%;
     height: 60px;
@@ -29,7 +24,7 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 0 5vw;
-    background-color: #fff;
+    background: white;
     z-index: 9;
 }
 .links-container{
@@ -42,6 +37,7 @@ body{
     text-decoration: none;
     text-transform: capitalize;
     color: #000;
+    font-size: larger;
 }
 .header{
     margin-top: 60px;
@@ -87,6 +83,7 @@ body{
 }
 
 .blogs-section{
+    word-break:break-word;
     width: 100%;
     padding: 50px 5vw;
     display: grid;
@@ -101,10 +98,7 @@ body{
     border-radius: 10px;
     margin-bottom: 10px;
 }
-.blog-card{
-    justify-content: center;
-    align-items: center;
-}
+
 .blog-overview{
     margin: 10px 0 20px;
     line-height: 30px;
@@ -113,4 +107,9 @@ body{
 .btn.dark{
     background: #1b1b1b;
     color: #fff;
+}
+.logo{
+    height:100%;
+    margin-left:0;
+    padding-left:0;
 }

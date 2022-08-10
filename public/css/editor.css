@@ -1,12 +1,12 @@
 .banner{
     width: 95%;
-    height: 300px;
+    height: 400px;
     position: relative;
-    background: #e7e7e7;
+    background: rgb(206, 204, 204);
     background-size: cover;
     background-position: center;
-    margin: auto;
-    
+margin:auto;
+
 }
 
 .banner-upload-btn{
@@ -22,7 +22,6 @@
     align-items: center;
     cursor: pointer;
 }
-
 .banner-upload-btn img{
     width: 20px;
 }
@@ -32,11 +31,9 @@
     min-width: 400px;
     height: 100px;
     display: block;
-    margin-top: 20px;
     margin: auto;
-    padding: 30px 0;
+    padding: 50px 0;
 }
-
 textarea::-webkit-scrollbar{
     width: 10px;
 }
@@ -53,12 +50,16 @@ textarea::-webkit-scrollbar-thumb{
     height: auto;
     outline: none;
     font-size: 40px;
-    font-weight: 500;
+    font-weight: 400;
     color: #2d2d2d;
     resize: none;
-    border-width: 2px;
+
+
     padding: 10px;
     border-radius: 10px;
+}
+.article{
+    font-weight: 600;
 }
 
 .title::placeholder,
@@ -69,9 +70,9 @@ textarea::-webkit-scrollbar-thumb{
 .article{
     height: 500px;
     font-size: 20px;
-    margin-top: 15px;
+    margin-top: 20px;
     line-height: 30px;
-    
+    font-weight: 500;
     padding-bottom: 100px;
     white-space: pre-wrap;
 }
